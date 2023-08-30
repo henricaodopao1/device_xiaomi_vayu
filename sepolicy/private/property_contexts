@@ -20,3 +20,8 @@ ro.miui.                u:object_r:exported_system_prop:s0
 
 # Recovery
 ro.build.expect.        u:object_r:exported_default_prop:s0
+
+# XiaomiParts
+persist.input.velocitytracker.                  u:object_r:exported_system_prop:s0
+ro.input.resampling                             u:object_r:exported_system_prop:s0
+viewroot.profile_rendering                      u:object_r:exported_system_prop:s0
