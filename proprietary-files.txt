@@ -850,6 +850,10 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libreffeature.so
 
+# Protobuf lite
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
