@@ -166,6 +166,7 @@ ro.vendor.perf.scroll_opt=true
 # Radio/RIL
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.data_con_rprt=1
@@ -179,7 +180,8 @@ persist.vendor.radio.rat_on=combine
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.redir_party_num=1
 persist.vendor.radio.sar_sar_sensor=true
-ro.telephony.iwlan_operation_mode=legacy
+ro.telephony.iwlan_operation_mode=default
+ro.vendor.use_data_netmgrd=true
 
 # SoC
 ro.soc.manufacturer=Qualcomm

@@ -59,10 +59,6 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # NFC
 ro.nfc.port=I2C
 
-# Netmgr
-persist.vendor.data.iwlan.enable=true
-persist.vendor.data.mode=concurrent
-
 # NTP Server backup
 persist.backup.ntpServer="0.pool.ntp.org"
 
